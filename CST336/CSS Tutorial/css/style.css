@@ -1,0 +1,30 @@
+#container {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+}
+
+#main_title {
+    /* # means look for an element with the id "main_title" */
+    /* color: blue; */
+    text-decoration: underline;
+}
+
+#mid_section {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    /* float:right; */
+    /* margin: auto; */
+}
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+}

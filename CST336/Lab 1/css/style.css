@@ -1,0 +1,144 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-family:'Trirong';
+}
+
+nav {
+    background-color: crimson;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+#nav_middle {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 25%;
+    margin: auto;
+    background-color: rgb(95, 81, 188);
+    color: white;
+}
+
+#current-page {
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium;
+}
+
+main {
+    background-color: bisque;
+    width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+    flex-grow: 1;
+}
+
+#cards {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 90%
+}
+
+.column {
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    border-style:solid;
+    border-color:rgb(163, 102, 102);
+}
+
+.portraits {
+    width: 300px;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    color: #AAAAAA;
+    background-color: black;
+    justify-content: center;
+}
+
+#greeting-box {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+#quote-box {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#form-box {
+    display: flex;
+    justify-content: center;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', serif;
+    font-size: large;
+    margin: auto;
+}
+
+
+table {
+    justify-self: center;
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    width:60%;
+    border-collapse:collapse;
+    background-color: bisque;
+}
+
+.tables {
+    padding:0%;
+    margin:0%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius:0%;
+    
+}
+
+#hobbies {
+    justify-self: center;
+}
+
+#about{
+    justify-self:center;
+    background-color: bisque;
+    width:30%;
+    border-radius:6px;
+    border-style:solid;
+    border-color:rgb(163, 102, 102);
+}
