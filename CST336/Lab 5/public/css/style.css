@@ -1,0 +1,73 @@
+#info label{
+    font-size: 30px;
+    
+}
+#info p{
+    font-weight:100;
+    font-size:20px;
+}
+
+#info{
+    background-color: bisque;
+}
+
+#HEAD{
+    background-color: bisque;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+#welcome{
+    font-size: 50px;
+    align-self: center;
+    border:0px;
+    border-bottom: 3px;
+    border-style:solid;
+    margin:0px;
+    margin-bottom:2px;
+    background-color: rgb(209, 255, 240);
+}
+
+#center{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    width: 90%;
+    background-color: aliceblue;
+}
+.pictures{
+    width: 400px;
+}
+
+
+#results{
+    align-content:center;
+}
+
+a{
+    font-size:20px;
+}
+
+#planetName{
+    font-size: 60px;
+    font-weight:250;
+}
+
+#space{
+    background-color: azure;
+    width: 90%;
+    align-content: center;
+    align-self: center;
+    margin:auto;
+}
+
+body{
+    align-content:center;
+}
+
+footer{
+    background-color: black;
+    color:antiquewhite;
+    font-size:20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets website</title>
+
+    <%- include('partials/include.ejs') %>
+</head>
+
+<body>
+    <header>
+        <%- include('partials/navbar.ejs') %>
+    </header>
+    <p id="welcome">Welcome to the planets!</p>
+    <div id="center">
+    
+    
+
+    <div id="results">
+
+        <% if (error == false) { %>
+            <div id='column1'>
+            </div>
+            <div id="column2">
+            </div>
+            <% let flip = true; %>
+            <% for (result of results) { %>
+                <img src="<%= result.webformatURL %>" class="pictures">
+            <% } %>
+        <% } else { %>
+            <p>Error: Couldn't get access to pixabay API</>
+        <% } %>
+        
+    </div>
+    
+</div>
+<br>
+<%- include('partials/footer.ejs') %>
+</body>
+
+</html>

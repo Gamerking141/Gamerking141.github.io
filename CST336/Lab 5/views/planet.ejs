@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet</title>
+
+    <%- include('partials/include.ejs') %>
+</head>
+
+<body>
+
+    <header>
+        <%- include('partials/navbar.ejs') %>
+    </header>
+    <div id="space">
+    <h1 id="planetName">
+        <%= name %>
+    </h1>
+
+    <br>
+    <img src="<%= planetData.image %>" class="pictures" />
+    <br><br>
+    <div id="HEAD">
+        <label>Information:</label>
+    </div>
+    
+    <div id="info">
+        
+        <br><br>
+
+        <div>
+            <label>Distance from the Sun:</label>
+            <p>
+                <%= planetData.distanceFromSun %>
+            </p>
+        </div>
+
+        <div>
+            <label>Year Length:</label>
+            <p>
+                <%= planetData.yearLength %>
+            </p>
+        </div>
+
+        <div>
+            <label>Radius:</label>
+            <p>
+                <%= planetData.radius %>
+            </p>
+        </div>
+
+        <div>
+            <label>One Earth Day:</label>
+            <p>
+                <%= planetData.oneEarthDay %>
+            </p>
+        </div>
+
+        <div>
+            <label>Number of Moons:</label>
+            <p>
+                <%= planetData.moons %>
+            </p>
+        </div>
+
+        <div>
+            <label>Description:</label>
+            <p>
+                <%= planetData.description %>
+            </p>
+        </div>
+
+        <div>
+            <label>Website Link:</label>
+            <a href="<%= planetData.websiteLink %>">Link</a>
+        </div>
+    </div>
+
+    </div>
+    <br>
+<%- include('partials/footer.ejs') %>
+</body>
+
+</html>
